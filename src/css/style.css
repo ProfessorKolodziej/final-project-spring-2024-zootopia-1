@@ -21,67 +21,127 @@ to help you out.
 	--size-lg: 1024px;
 	--size-xl: 1200px;
 */
-
-h1 {
-	color: var(--color-primary);
+body{
+    background-image: url("../images/封面1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color: black; 
+  font-size: 75px; 
+  font-weight: bold; 
+  text-align: center; 
+  text-shadow:
+    -1px -1px 0 yellow,  
+     1px -1px 0  yellow,
+    -1px 1px 0 black,
+     1px 1px 0 #000; 
+     position: relative;
 }
 
-/* This uses the same value as --size-xs. */
-@media screen and (width >= 320px) {
-	.content-container {
-		margin: 0 auto;
-		max-width: 768px;
-	}
+
+  h2{
+    text-align: center; 
+    margin-top: 40px;
+  }
+  
+
+@media screen and (max-width: 767px) {
+   
+h1{
+  font-size: 73px; 
+}
+nav {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: transparent;
+    padding: 0; 
+    list-style: none; 
+  }
+  
+  nav a {
+    color: black; 
+    font-weight: bold; 
+    display: block; 
+    width: 150px; 
+    height: 50px; 
+    line-height: 50px; 
+    margin: 10px 0; 
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5); 
+    text-align: center; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    text-shadow: 1px 1px yellow;
+    transition: background-color 0.3s;
+    font-size: 23px;
+  }
+h2{
+    font-size: 20px;
+}
+}@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules here will apply to screens between 768px and 1023px wide */
+h1{
+    font-size: 83px;
+}
+nav {
+    background: transparent;
+    text-align: center;
+    padding: 20px 0; 
+    font-size: 25px;
+  }
+  
+  /* Style for the navigation links */
+  nav a {
+    font-weight: bold; 
+    color: black; 
+    text-shadow: 2px 2px yellow; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px 30px; 
+    margin: 0 10px; 
+    text-decoration: none; 
+    display: inline-block; 
+    border: 2px solid transparent; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+h2{
+    font-size: 25px;
+    margin-top: 60px;
+}
+}
+@media screen and (min-width: 1024px) {
+    /* CSS rules here will apply to screens wider than 1024px */
+    h1{
+        font-size: 125px;
+    }
+    nav {
+        background: transparent;
+        text-align: center;
+        padding: 20px 0; 
+        font-size: 25px;
+      }
+      
+      /* Style for the navigation links */
+      nav a {
+        font-weight: bold; 
+        color: black; 
+        text-shadow: 2px 2px yellow; 
+        background-color: rgba(255, 255, 255, 0.5); 
+        padding: 10px 30px; 
+        margin: 0 10px; 
+        text-decoration: none; 
+        display: inline-block; 
+        border: 2px solid transparent; 
+        transition: background-color 0.3s, color 0.3s; 
+        font-size: 31px;
+      }
+      h2{
+        font-size: 30px;
+      }   
 }
 
 
-		body {
-		  margin: 0;
-		  padding: 0;
-		}
-		.container {
-		  position: relative;
-		  text-align: center;
-		}
-		.image {
-		  width: 100%;
-		  height: auto;
-		}
-		.button {
-		  position: absolute;
-		  width: 20px; /* Adjust size as needed */
-		  height: 20px; /* Adjust size as needed */
-		  background-color: yellow; /* Yellow dot color */
-		  border: none;
-		  border-radius: 50%; /* Makes the button round */
-		  cursor: pointer;
-		}
-		/* Positions can be adjusted based on actual requirements */
-		.btn-owl {
-		  top: 20%;
-		  left: 10%;
-		}
-		.btn-tiger {
-		  top: 40%;
-		  left: 50%;
-		}
-		.btn-fox {
-		  top: 70%;
-		  left: 80%;
-		}
-		.btn-bird {
-		  top: 10%;
-		  left: 40%;
-		}
-		.quiz {
-		  background-color: green; /* Quiz button color */
-		  color: white;
-		  position: absolute;
-		  bottom: 20px;
-		  left: 20px;
-		  padding: 10px 20px;
-		  font-size: 18px;
-		  text-decoration: none; /* If you want it to look like a link */
-		  display: inline-block;
-		}
-	
