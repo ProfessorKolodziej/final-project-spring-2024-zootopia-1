@@ -1,0 +1,32 @@
+@media screen and (width >= 320px) {
+    .content-container {
+        margin: 0 auto;
+        max-width: 768px;
+    }
+}
+
+.content-container {
+    position: relative;
+}
+
+/* Style for the image container to position the yellow dots */
+.image {
+    position: relative;
+    display: inline-block; /* Makes the container fit the image size */
+}
+
+/* Base style for the yellow dots */
+.dot {
+    position: absolute;
+    width: 20px; /* Size of the dot */
+    height: 20px; /* Size of the dot */
+    background-color: yellow; /* Color of the dot */
+    border-radius: 50%; /* Makes the dot round */
+    z-index: 10; /* Makes sure the dot is above the image */
+}
+
+/* You will need to manually adjust the top and left values to position the dots over the animals in the image */
+.owl-dot { top: y1px; left: x1px; }
+.tiger-dot { top: y3px; left: x3px; }
+.fox-dot { top: y5px; left: x5px; }
+.wolf-dot { top: y7px; left: x7px; }
