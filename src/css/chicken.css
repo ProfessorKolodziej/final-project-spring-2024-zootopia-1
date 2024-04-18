@@ -1,10 +1,10 @@
-body {
-    background-image: url("../images/laohu.png"); /* Adjust path as necessary */
+body{
+    background-image: url("../images/chicken.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-  }
+}
 
 .info-section {
     color: whitesmoke;
@@ -19,18 +19,18 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 50%; /* adjust this to control the width of the overlay */
-    background: rgba(0, 0, 0, 0.5); /* adjust alpha for opacity */
-    color: white; /* text color */
-    padding: 20px; /* adjust this for spacing inside the overlay */
+    width: 50%; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 20px; 
     box-sizing: border-box;
   }
   
   
   @media screen and (max-width: 767px) {
     .overlay-container {
-      width: 100%; /* full width on smaller screens */
-      position: relative; /* stack on top of the image */
+      width: 100%; 
+      position: relative; 
     }
   }
   
@@ -41,8 +41,7 @@ body {
   }
 
   @media screen and (max-width: 767px) {
-    /* CSS rules here will apply to screens smaller than 768px(smartphone) */
-  
+    
   .hand-direction-class { 
     transform: rotate(-50deg); 
     padding: 10px; 
@@ -55,7 +54,7 @@ body {
 }
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    /* CSS rules here will apply to screens between 768px and 1023px wide */
+   
     .hand-direction-class {
       width: 80px; 
       height: 80px; 
@@ -71,7 +70,7 @@ body {
 
 
 @media screen and (min-width: 1024px) {
-    /* CSS rules here will apply to screens wider than 1024px */
+    
     .hand-direction-class {
       width: 80px; 
       height: 80px; 
@@ -81,6 +80,5 @@ body {
       display: block; 
       margin-top: 600px;
       margin-left:0px;
-    
     }
 }
