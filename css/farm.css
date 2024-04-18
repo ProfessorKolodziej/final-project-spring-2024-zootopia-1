@@ -1,0 +1,143 @@
+.quiz-button {
+    text-decoration: none; 
+    color: white; 
+    background-color: blue; 
+    border-radius: 5px; 
+    text-align: center; 
+    font-weight: bold; 
+    position: fixed;
+  }
+  .farm-class {
+    width: 100%;
+    height: 100%;
+    display: block;  
+  }
+  .hand-direction-class { 
+    transform: rotate(-50deg); 
+    padding: 5px; 
+    margin: 20px; 
+    display: block; 
+  }
+  body{
+    background-color: #BDDF36;
+  }
+
+  .image-container {
+    position: relative;
+    max-width: 100%; 
+    margin: auto; 
+  }
+  
+  .farm-class {
+    width: 100%;
+    display: block;  
+  }
+  .yellow-dot-link {
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    text-indent: -9999px; 
+    border: none;
+    cursor: pointer;
+  }
+  .chicken {
+    top: 70%; 
+    left: 85%; 
+  }
+  .sheep {
+    top: 55%; 
+    left: 20%; 
+  }
+  .pig {
+    top: 78%; 
+    left: 65%; 
+  }
+  .cow {
+    top: 70%;
+    left: 53%;
+  }
+    
+  @media screen and (max-width: 767px) {
+    /* CSS rules here will apply to screens smaller than 768px(smartphone) */
+  
+    .hand-direction-class {
+      width: 55px; 
+      height: 55px; 
+      transform: rotate(-50deg); 
+      padding: 10px; 
+      margin: 20px; 
+      display: block; 
+      margin-top: -65px;
+      margin-left: 7px;
+    }
+    .farm-class {
+    margin-top: 200px;
+  }
+  .quiz-button {
+    padding: 5px 10px;
+    right: 10px;
+    margin-top: -68px;
+  }
+  }
+  
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules here will apply to screens between 768px and 1023px wide */
+    .hand-direction-class {
+      width: 80px; 
+      height: 80px; 
+      transform: rotate(-50deg); 
+      padding: 10px; 
+      margin: 20px; 
+      display: block; 
+      margin-top: -90px;
+      margin-left: 10px;
+    }
+    .quiz-button {
+      padding: 10px 20px;
+      right: 10px; 
+      margin-top: -80px;
+      font-size: 20px;
+    }
+    .farm-class {
+        margin-top: 50px;
+      }
+  
+      .yellow-dot-link {
+        width: 30px; 
+      height: 30px;
+      }
+    
+    
+  }
+  
+  @media screen and (min-width: 1024px) {
+    /* CSS rules here will apply to screens wider than 1024px */
+    .hand-direction-class {
+      width: 100px; 
+      height: 100px; 
+      transform: rotate(-50deg); 
+      padding: 10px; 
+      margin: 20px; 
+      display: block; 
+      margin-top: -99px;
+      margin-left: 7px;
+    }
+    .quiz-button {
+      padding: 15px 22px;
+      right: 10px;  
+      font-size: 20px;
+      margin-top: -105px;
+    } 
+    .farm-class {
+        margin-top: -50px;
+      }
+    
+    .yellow-dot-link {
+        width: 30px; 
+      height: 30px;
+      }
+  }  
