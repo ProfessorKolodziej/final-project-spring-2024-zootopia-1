@@ -10,6 +10,8 @@ Please add a brief description of your final project here.
 - **Final code demo:** [Update this to show your Github Pages URL](https://professorkolodziej.github.io/cm523-final-project/). The URL will be `https://professorkolodziej.github.io/YOUR-REPOSITORY-NAME/`.
 - Add any links to wireframes, mockups, your presentation, etc. here in a list so it is easy for you to find later.
 
+https://github.com/ProfessorKolodziej/final-project-spring-2024-zootopia-1.git
+
 ## How to Use This Repository
 
 Make sure you've [set up your development environment](https://docs.google.com/document/d/14usTx6c1L1MwSjRvwtk4spz40EDgHV50_53kKAiHzcM/edit?usp=sharing). Then, use the following commands to get up and running!
