@@ -1,0 +1,95 @@
+body{
+    background-image: url("../images/owl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .info-section {
+    color: whitesmoke;
+  }
+  
+  .heading{
+    color: whitesmoke;
+  }
+  
+  .overlay-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 20px; 
+    box-sizing: border-box;
+  }
+  
+  .speaker{
+    position: absolute; 
+    top: 30px; 
+    right: 30px; 
+    width: 75px; 
+    height: auto; 
+    z-index: 2; 
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 767px) {
+    .overlay-container {
+      width: 100%; 
+      position: relative; 
+    }
+  }
+  
+  .hand-direction-class { 
+    transform: rotate(-50deg); 
+    padding: 10px; 
+    margin: 30px;  
+  }
+  
+  @media screen and (max-width: 767px) {
+    
+  .hand-direction-class { 
+    transform: rotate(-50deg); 
+    padding: 10px; 
+    margin: 20px; 
+    display: block;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 70px; 
+  }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .hand-direction-class {
+      width: 80px; 
+      height: 80px; 
+      transform: rotate(-50deg); 
+      padding: 10px; 
+      margin: 20px; 
+      display: block; 
+      margin-top: 600px;
+      margin-left: 0px;
+    
+    }
+  }
+  
+  
+  @media screen and (min-width: 1024px) {
+    
+    .hand-direction-class {
+      width: 80px; 
+      height: 80px; 
+      transform: rotate(-50deg); 
+      padding: 10px; 
+      margin: 20px; 
+      display: block; 
+      margin-top: 600px;
+      margin-left:0px;
+    }
+  }
