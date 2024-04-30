@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    font-family: 'Arial', sans-serif;
 }
 .speaker{
     position: absolute; 
