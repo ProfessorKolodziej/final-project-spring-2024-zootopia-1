@@ -1,9 +1,10 @@
 body {
-    background-image: url("../images/laohu.png"); /* Adjust path as necessary */
+    background-image: url("../images/laohu.jpg"); /* Adjust path as necessary */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    font-family: 'Arial', sans-serif;
   }
 
 .info-section {

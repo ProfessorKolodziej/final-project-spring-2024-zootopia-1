@@ -1,0 +1,96 @@
+body{
+    background-image: url("../images/fox2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.text-content {
+    color: white; 
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 50px; 
+  }
+  
+
+  .best-answer {
+    font-weight: bold; 
+    color: #FAE263; 
+    display: block; 
+    margin-bottom: 0.5em; 
+    font-size: 30px; 
+  }
+  
+
+.hand-direction-class {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    transform: rotate(-50deg); 
+    width: 80px; 
+    height: 80px; 
+  }
+  
+  
+  
+  @media screen and (max-width: 767px) {
+   
+  .hand-direction-class { 
+    transform: rotate(-50deg); 
+    padding: 10px; 
+    margin: 30px; 
+  }
+  }
+
+ 
+
+  @media screen and (max-width: 767px) {
+    
+  .hand-direction-class { 
+    transform: rotate(-50deg); 
+    padding: 10px; 
+    margin: 20px; 
+    display: block;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 70px; 
+  }
+}
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .hand-direction-class {
+      width: 80px; 
+      height: 80px; 
+      transform: rotate(-50deg); 
+      padding: 10px; 
+      margin: 20px; 
+      display: block; 
+      margin-top: 600px;
+      margin-left: 0px;
+    
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+    .hand-direction-class {
+      width: 80px; 
+      height: 80px; 
+      transform: rotate(-50deg); 
+      padding: 10px; 
+      margin: 20px; 
+      display: block; 
+      margin-top: 600px;
+      margin-left:0px;
+    }
+}
